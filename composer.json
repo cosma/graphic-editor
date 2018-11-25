@@ -1,0 +1,27 @@
+{
+  "name": "cosma/graphic-editor",
+  "type": "library",
+  "description": "Graphic Editor Component",
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "Cosmin Voicu",
+      "email": "cosmin.voicu@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "ext-gd": "*"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "GraphicEditor\\": "src/"
+    }
+  }
+}
